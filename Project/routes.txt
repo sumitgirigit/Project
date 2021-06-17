@@ -1,0 +1,9 @@
+
+//POSTMAN
+
+localhost:4000/product/get    // to get all product
+localhost:4000/product/create // create new product
+
+localhost:4000/register  //post for new user
+localhost:4000/login //post for login
+localhost:4000/logut //get for logout

@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+  }
+  
+  .item {
+      margin: 0.3rem;
+      width: 150px;
+      height: 150px;
+      list-style: none;
+      box-sizing: border-box;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+      border-radius: 6px;
+      padding: 10px;
+      background-color: #f1f1ea;
+    }
+
+    .item h3{
+      margin-top: 0;
+    }
+
+    .item .name {
+      color: #264653;
+    }
+
+    .item .description {
+      color: #264653;
+    }
+    
+    .item .price {
+      color: black;
+      font-weight: bold;
+    }
+    
+  
+    .item:hover {
+      border: 2px solid #779faf;
+      border-top-right-radius: 7px;
+      border-top-left-radius: 7px;
+    }
+  
+    a{
+      text-decoration: none;
+      color: white;
+    }
+    a:hover {
+        background-color: transparent;
+        color: #e72656;
+    }
